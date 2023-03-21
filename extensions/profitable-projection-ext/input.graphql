@@ -1,0 +1,7 @@
+query Input {
+  discountNode {
+    metafield(namespace: "$app:profitable-projection-ext", key: "function-configuration") {
+      value
+    }
+  }
+}
